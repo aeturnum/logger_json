@@ -15,6 +15,7 @@ defmodule LoggerJSON.Formatters.GoogleCloudLogger do
   @severity_levels [
     {:debug, "DEBUG"},
     {:info, "INFO"},
+    {:notice, "NOTICE"},
     {:warn, "WARNING"},
     {:error, "ERROR"}
   ]
